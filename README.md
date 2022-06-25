@@ -88,12 +88,12 @@ The scripts should be available in the "PORTS" menu.
 
 
 ## Troubleshooting
-- Make sure your mapping is in your application's gamecontrollerdb.txt 
+- Make sure your mapping is in your application's gamecontrollerdb.txt  
   (for m8c - `/home/<user>/.local/share/m8c/` - you may have to create it)
 
 - Some applications may not have or read the gamecontrollerdb.txt file
 
-- If your application is still not detecting the gamepad, you may need to add the line
-  ```export SDL_GAMECONTROLLERCONFIG=<your mapping>```
+- If your application is still not detecting the gamepad, you may need to add the line  
+  ```export SDL_GAMECONTROLLERCONFIG=<your mapping>```  
   before running your application 
   (or put in a shell script that calls your application)
