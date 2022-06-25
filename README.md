@@ -11,7 +11,7 @@ In most cases, once running, the program can be controlled exclusively by the
 connected joystick/gamepad.
 
 `m8c` - includes a config helper for m8c that will translate 
-button inputs to the ptroper values and output a snippet that can be dropped 
+button inputs to the proper values and output a snippet that can be dropped 
 in to the m8c config.ini file found in `/home/<user>/.local/share/m8c/`
 
 `EmulationStation` - includes scripts to run it directly from EmulationStation. 
