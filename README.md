@@ -88,7 +88,8 @@ The scripts should be available in the "PORTS" menu.
 
 
 ## Troubleshooting
-- Make sure your mapping is in your aplication's gamecontrollerdb.txt 
+- Make sure your mapping is in your application's gamecontrollerdb.txt 
+  (for m8c - `/home/<user>/.local/share/m8c/` - you may have to create it)
 
 - Some applications may not have or read the gamecontrollerdb.txt file
 

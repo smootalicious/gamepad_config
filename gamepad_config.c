@@ -174,6 +174,7 @@ void print_help(const char* prg) {
 
 
 void list_joysticks() {
+    // for debugging
     //SDL_LogSetAllPriority(SDL_LOG_PRIORITY_INFO);
 
     int num_joysticks = SDL_NumJoysticks();
